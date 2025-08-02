@@ -1,0 +1,525 @@
+2025-08-01 21:25:54,865 - __main__ - INFO - Bot avviato – in attesa di comandi.
+2025-08-01 21:26:02,552 - TeleBot - ERROR - Infinity polling: polling exited
+2025-08-01 21:26:02,552 - TeleBot - ERROR - Break infinity polling
+2025-08-01 21:26:32,436 - __main__ - INFO - Bot avviato – in attesa di comandi.
+2025-08-01 22:37:40,787 - __main__ - WARNING - Nome duplicato esatto, salto: Giordano
+2025-08-01 22:39:52,245 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\'
+2025-08-01 22:39:52,246 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 151, in raise_exceptions
+    raise self.exception_info
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 94, in run
+    task(*args, **kwargs)
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9854, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/bot.py", line 823, in callback_matto
+    bot.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\'
+
+2025-08-01 22:39:57,478 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\'
+2025-08-01 22:39:57,479 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 151, in raise_exceptions
+    raise self.exception_info
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 94, in run
+    task(*args, **kwargs)
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9854, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/bot.py", line 823, in callback_matto
+    bot.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\'
+
+2025-08-01 22:40:06,879 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\'
+2025-08-01 22:40:06,880 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 151, in raise_exceptions
+    raise self.exception_info
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 94, in run
+    task(*args, **kwargs)
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9854, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/bot.py", line 823, in callback_matto
+    bot.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\'
+
+2025-08-01 22:40:10,972 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\'
+2025-08-01 22:40:10,973 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 151, in raise_exceptions
+    raise self.exception_info
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 94, in run
+    task(*args, **kwargs)
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9854, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/bot.py", line 823, in callback_matto
+    bot.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\'
+
+2025-08-01 22:40:16,003 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-08-01 22:40:16,006 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 151, in raise_exceptions
+    raise self.exception_info
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 94, in run
+    task(*args, **kwargs)
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9854, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/bot.py", line 823, in callback_matto
+    bot.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+
+2025-08-01 22:40:27,071 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-08-01 22:40:27,073 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 151, in raise_exceptions
+    raise self.exception_info
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 94, in run
+    task(*args, **kwargs)
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9854, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/bot.py", line 823, in callback_matto
+    bot.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+
+2025-08-01 22:40:31,020 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-08-01 22:40:31,021 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 151, in raise_exceptions
+    raise self.exception_info
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 94, in run
+    task(*args, **kwargs)
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9854, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/bot.py", line 823, in callback_matto
+    bot.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+
+2025-08-01 22:40:31,362 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-08-01 22:40:31,362 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 151, in raise_exceptions
+    raise self.exception_info
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 94, in run
+    task(*args, **kwargs)
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9854, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/bot.py", line 823, in callback_matto
+    bot.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+
+2025-08-01 22:40:32,240 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-08-01 22:40:32,241 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 151, in raise_exceptions
+    raise self.exception_info
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 94, in run
+    task(*args, **kwargs)
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9854, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/bot.py", line 823, in callback_matto
+    bot.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+
+2025-08-01 22:40:42,222 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-08-01 22:40:42,224 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 151, in raise_exceptions
+    raise self.exception_info
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 94, in run
+    task(*args, **kwargs)
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9854, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/bot.py", line 823, in callback_matto
+    bot.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+
+2025-08-01 22:40:42,806 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-08-01 22:40:42,807 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 151, in raise_exceptions
+    raise self.exception_info
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 94, in run
+    task(*args, **kwargs)
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9854, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/bot.py", line 823, in callback_matto
+    bot.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+
+2025-08-01 22:40:43,099 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-08-01 22:40:43,100 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 151, in raise_exceptions
+    raise self.exception_info
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 94, in run
+    task(*args, **kwargs)
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9854, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/bot.py", line 823, in callback_matto
+    bot.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+
+2025-08-01 22:40:47,601 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-08-01 22:40:47,602 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 151, in raise_exceptions
+    raise self.exception_info
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 94, in run
+    task(*args, **kwargs)
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9854, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/bot.py", line 823, in callback_matto
+    bot.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+
+2025-08-01 22:40:48,247 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-08-01 22:40:48,248 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 151, in raise_exceptions
+    raise self.exception_info
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 94, in run
+    task(*args, **kwargs)
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9854, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/bot.py", line 823, in callback_matto
+    bot.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+
+2025-08-01 22:40:48,503 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-08-01 22:40:48,504 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 151, in raise_exceptions
+    raise self.exception_info
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 94, in run
+    task(*args, **kwargs)
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9854, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/bot.py", line 823, in callback_matto
+    bot.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+
+2025-08-01 22:41:08,082 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-08-01 22:41:08,083 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 151, in raise_exceptions
+    raise self.exception_info
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 94, in run
+    task(*args, **kwargs)
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9854, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/bot.py", line 823, in callback_matto
+    bot.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+
+2025-08-01 22:41:15,382 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-08-01 22:41:15,383 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 151, in raise_exceptions
+    raise self.exception_info
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 94, in run
+    task(*args, **kwargs)
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9854, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/bot.py", line 823, in callback_matto
+    bot.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+
+2025-08-01 22:41:45,573 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-08-01 22:41:45,573 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 151, in raise_exceptions
+    raise self.exception_info
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 94, in run
+    task(*args, **kwargs)
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9854, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/bot.py", line 823, in callback_matto
+    bot.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+
+2025-08-01 22:41:47,875 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\'
+2025-08-01 22:41:47,876 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 151, in raise_exceptions
+    raise self.exception_info
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 94, in run
+    task(*args, **kwargs)
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9854, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/bot.py", line 823, in callback_matto
+    bot.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\'
+
+2025-08-01 22:41:51,389 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-08-01 22:41:51,390 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 151, in raise_exceptions
+    raise self.exception_info
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/util.py", line 94, in run
+    task(*args, **kwargs)
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 9854, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/bot.py", line 823, in callback_matto
+    bot.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/admin/bot/venv/lib/python3.11/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+
